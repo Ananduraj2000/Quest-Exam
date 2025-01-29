@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity(), RecyclerViewAdapter.ItemClickListener 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
 
-        val button = findViewById<Button>(R.id.button)
+        val button = findViewById<Button>(R.id.Subbtn)
         mRecyclerView = findViewById(R.id.recyclerview)
         mRecyclerView.apply {
             layoutManager = LinearLayoutManager(this@MainActivity, RecyclerView.VERTICAL, false)

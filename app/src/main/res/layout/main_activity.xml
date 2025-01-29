@@ -17,7 +17,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Source"
+            android:hint="Enter Source"
             android:padding="10dp"
             android:layout_marginEnd="8dp"/>
 
@@ -27,14 +27,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Country"
+            android:hint="Enter Country"
             android:padding="10dp"/>
     </LinearLayout>
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Subbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SHOW NEWS" />
+        android:text="Display News" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
